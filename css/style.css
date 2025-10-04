@@ -61,5 +61,5 @@ h1 {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0, 0.2);
+  opacity: 0.8;
 }
