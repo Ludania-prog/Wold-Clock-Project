@@ -70,9 +70,5 @@ function updateCity(event) {
 updateTime();
 setInterval(updateTime, 1000);
 
-//other option is losAngelesTimeElement.innerHTML = losAngelesTime.format("h:mm:ss [<small></small>]"
-
-//`${losAngelesTime.format("h:mm:ss")} <small>${losAngelesTime.format("A")}</small>`;
-
 let citiesSelectElement = document.querySelector("#city");
 citiesSelectElement = addEventListener("change", updateCity);
